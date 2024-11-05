@@ -1,5 +1,7 @@
 <script setup>
-defineProps({
+//Converted from options API to composition API
+//Define props for the message
+const props = defineProps({
   msg: {
     type: String,
     required: true

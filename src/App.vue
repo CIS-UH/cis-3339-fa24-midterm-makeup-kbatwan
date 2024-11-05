@@ -1,9 +1,15 @@
+<script setup>
+//Converted from options API to composition API
+//From example-chart class code App.vue 
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
 <template>
   <div>
       <!-- Nav bar -->
       <nav class="navbar navbar-expand navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand float-left" href="/">CIS 4339 Midterm</a>
+          <a class="navbar-brand float-left" href="/">CIS 4339 Midterm Makeup</a>
           <ul class="nav navbar-nav mr-auto" >
             <li class="nav-item">
               <RouterLink class="nav-link" to="/">Home</RouterLink>
